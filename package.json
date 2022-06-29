@@ -1,0 +1,27 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "description": "Simple project that uses redis plugins such as redisjson and redisearch to implement my library app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "insert": "node insert.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samthom/my-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samthom/my-library/issues"
+  },
+  "homepage": "https://github.com/samthom/my-library#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "iorejson": "^0.1.1",
+    "redis": "^4.1.0"
+  }
+}
